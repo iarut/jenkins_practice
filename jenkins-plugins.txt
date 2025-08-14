@@ -1,0 +1,4 @@
+workflow-aggregator:2.7
+git:5.2.2
+blueocean:1.27.4
+configuration-as-code:1836.vccda_4a_122a_a_e
