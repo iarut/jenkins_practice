@@ -7,11 +7,11 @@ pipeline {
                 checkout scm
             }
         }
-//         stage('Build') {
-//             steps {
-//                 Запускаем сборку Gradle (предполагается, что используется оболочка Gradle Wrapper)
-//                 sh './gradlew clean build'
-//             }
-//         }
+         stage('Build') {
+            steps {
+                 Запускаем сборку Gradle (предполагается, что используется оболочка Gradle Wrapper)
+                sh './gradlew clean build'
+             }
+         }
     }
 }
