@@ -10,8 +10,8 @@ pipeline {
          stage('Build') {
             steps {
 //                  Запускаем сборку Gradle (предполагается, что используется оболочка Gradle Wrapper)
-                sh 'chmod +x gradlew'
-                sh './gradlew clean build'
+//                 sh 'chmod +x gradlew'
+                sh 'gradle clean build'
              }
          }
     }
